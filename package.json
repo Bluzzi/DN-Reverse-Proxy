@@ -1,0 +1,20 @@
+{
+  "name": "ndd-proxy",
+  "version": "1.0.0",
+  "main": "ndd-proxy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leepo-Team/NDD-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leepo-Team/NDD-Proxy/issues"
+  },
+  "homepage": "https://github.com/Leepo-Team/NDD-Proxy#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "http-proxy": "^1.18.1"
+  }
+}
