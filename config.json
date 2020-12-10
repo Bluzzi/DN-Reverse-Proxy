@@ -1,0 +1,11 @@
+{
+    "port": 80,
+    "ssl": {
+        "key": "key.pem",
+        "cert": "cert.pem"
+    },
+    "records": {
+        "symp.fr": 3000,
+        "enely.art": 3001
+    }
+}
