@@ -1,5 +1,6 @@
 {
     "port": 80,
+    "https": true,
     "ssl": {
         "key": "key.pem",
         "cert": "cert.pem"
