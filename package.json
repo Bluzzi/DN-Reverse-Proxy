@@ -6,7 +6,16 @@
     "type": "git",
     "url": "git+https://github.com/Leepo-Team/NDD-Proxy.git"
   },
-  "author": "",
+  "contributors": [
+    {
+      "name": "Bluzzi",
+      "url": "https://github.com/Bluzzi"
+    },
+    {
+      "name": "Szeroki",
+      "url": "https://github.com/Seyz123"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Leepo-Team/NDD-Proxy/issues"
