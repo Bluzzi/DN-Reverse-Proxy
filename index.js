@@ -13,7 +13,7 @@ let server = http.createServer(function(request, response) {
     let redirect = records[host];
     
     if(redirect){
-        if(config.https) {
+        if(config.https){
             proxy.web(request, response, {
                 target: "https://127.0.0.1:" + redirect,
                 secure: true,
