@@ -1,7 +1,7 @@
 {
-  "name": "ndd-proxy",
-  "version": "1.0.0",
-  "main": "ndd-proxy.js",
+  "name": "dn-proxy",
+  "version": "2.0.0",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leepo-Team/NDD-Proxy.git"
