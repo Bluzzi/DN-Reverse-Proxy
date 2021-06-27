@@ -1,7 +1,6 @@
 // Packages :
 const http = require("http");
 const httpProxy = require("http-proxy");
-const fs = require("fs");
 const config = require("./config.json");
 
 // Create proxy server : 
@@ -9,7 +8,7 @@ const proxy = httpProxy.createProxyServer({});
 
 // Redirect requests :
 let server = http.createServer(function(request, response) {
-    let records = JSON.parse(fs.readFileSync(__dirname + "/config.json")).records;
+    let records = config.records;
     let host = request.headers.host;
     let redirect = records[host];
     
