@@ -7,7 +7,7 @@ A proxy allowing to redirect HTTP requests on port 80 to another port depending 
 Configuration of redirects :
 ```json
 {
-    records: {
+    "records": {
         "symp.fr": 3000,
         "enely.art": 3001
     }
@@ -17,9 +17,9 @@ Configuration of redirects :
 Configuration of SSL (to enable HTTPS) :
 ```json
 {
-    port: 80,
-    https: true,
-    ssl: {
+    "port": 80,
+    "https": true,
+    "ssl": {
         "key": "key.pem",
         "cert": "cert.pem"
     },
