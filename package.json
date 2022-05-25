@@ -1,28 +1,8 @@
 {
-  "name": "dn-proxy",
-  "version": "2.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Leepo-Team/NDD-Proxy.git"
-  },
-  "contributors": [
-    {
-      "name": "Bluzzi",
-      "url": "https://github.com/Bluzzi"
-    },
-    {
-      "name": "Szeroki",
-      "url": "https://github.com/Seyz123"
-    }
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Leepo-Team/NDD-Proxy/issues"
-  },
-  "homepage": "https://github.com/Leepo-Team/NDD-Proxy#readme",
+  "version": "3.0.0",
+  "main": "./src/Index.js",
+  "type": "module",
   "dependencies": {
-    "http": "0.0.1-security",
     "http-proxy": "^1.18.1"
   }
 }

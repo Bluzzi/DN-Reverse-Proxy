@@ -1,11 +1,10 @@
 {
     "port": 80,
-    "https": true,
     "ssl": {
         "key": "key.pem",
         "cert": "cert.pem"
     },
-    "records": {
+    "redirections": {
         "symp.fr": 3000,
         "enely.art": 3001,
         "goscord.dev": 3002,
