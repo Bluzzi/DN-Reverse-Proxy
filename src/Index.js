@@ -34,6 +34,6 @@ const server = http.createServer(async (request, response) => {
   }
 });
 
-// Listen at port 80 :
+// Start the server :
 server.listen(config.port);
 log(`Listening connections at port ${config.port}...`);
